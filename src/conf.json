@@ -1,0 +1,21 @@
+{
+  "predictor": "SGD",
+  "CV_folds": 0,
+  "param_list": [
+    {
+      "learning_rate": 0.001,
+      "features": 100,
+      "epochs_per_feat": 125,
+      "l2_coef": 0.029,
+      "function": "clip",
+      "store_factorisation": true,
+      "plot_errors": true
+    }
+  ],
+  "baseline_method": "mean_col_with_offset_and_prior_baseline",
+  "baseline_settings": {
+    "mean_prior_coef": 50,
+    "offset_prior_coef": 25
+  },
+  "rounding_threshold": 0.0
+}

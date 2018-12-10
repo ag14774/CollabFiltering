@@ -1,0 +1,14 @@
+{
+  "predictor": "svd_simple",
+  "CV_folds": 0,
+  "param_list": [
+    {
+      "knew": 11
+    }
+  ],
+  "baseline_method": "mean_col_with_prior_baseline",
+  "baseline_settings": {
+    "mean_prior_coef": 190
+  },
+  "rounding_threshold": 0.0
+}

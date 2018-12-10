@@ -1,0 +1,28 @@
+{
+  "predictor": "buildEnsemble",
+  "CV_folds": 0,
+  "param_list": [
+    {
+      "classpath": "regressors.LGBMRegressorWrapper",
+      "boosting_type": "gbdt",
+      "num_leaves": 9,
+      "max_depth": -1,
+      "learning_rate": 0.05,
+      "n_estimators": 200,
+      "subsample_for_bin": 200000,
+      "min_child_samples": 200,
+      "subsample": 0.9,
+      "reg_alpha": 0.002,
+      "reg_lambda": 0.03,
+      "random_state": 521,
+      "n_jobs": 6,
+      "silent": true
+    }
+  ],
+  "baseline_method": "mean_col_with_offset_and_prior_baseline",
+  "baseline_settings": {
+    "mean_prior_coef": 50,
+    "offset_prior_coef": 25
+  },
+  "rounding_threshold": 0.0
+}

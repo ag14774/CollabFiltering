@@ -1,0 +1,20 @@
+{
+  "predictor": "kmeans_simple",
+  "CV_folds": 0,
+  "param_list": [
+    {
+      "n_clusters": 95,
+      "batch_size": -1,
+      "max_iter": 500,
+      "n_jobs": 1,
+      "random_state": 37,
+      "store_assignments": true
+    }
+  ],
+  "baseline_method": "mean_col_with_offset_and_prior_baseline",
+  "baseline_settings": {
+    "mean_prior_coef": 50,
+    "offset_prior_coef": 25
+  },
+  "rounding_threshold": 0.0
+}

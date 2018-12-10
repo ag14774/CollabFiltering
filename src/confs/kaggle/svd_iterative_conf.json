@@ -1,0 +1,16 @@
+{
+  "predictor": "svd_iterative",
+  "CV_folds": 0,
+  "param_list": [
+    {
+      "tau": 38,
+      "iters": 21,
+      "store_factorisation": true
+    }
+  ],
+  "baseline_method": "mean_col_with_prior_baseline",
+  "baseline_settings": {
+    "mean_prior_coef": 190
+  },
+  "rounding_threshold": 0.0
+}

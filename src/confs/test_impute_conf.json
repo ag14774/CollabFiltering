@@ -1,0 +1,13 @@
+{
+  "predictor": "simple_baseline",
+  "CV_folds": 5,
+  "param_list": [
+    {}
+  ],
+  "baseline_method": "mean_col_with_offset_and_prior_baseline",
+  "baseline_settings": {
+    "mean_prior_coef": 0,
+    "offset_prior_coef": 15
+  },
+  "rounding_threshold": 0.0
+}
